@@ -14,19 +14,18 @@ body {
 
 .name {
 	position: relative;
-	top: -21px;
 	background-color: #4AAAA5;
 	color: white;
 	width: 130px;
 	display: inline-block;
-	padding: 10px 9px 9px 20px;
+	padding: 20px;
 	margin-left: 50px;
 }
 
 ul {
 	position: absolute;
 	right: 0px;
-	top: 0px;
+	top: 20px;
 	list-style: none;
 
 }
@@ -51,6 +50,14 @@ h1, h2 {
 	margin-left: 50px;
 }
 
+.bio-image {
+	width: 100px;
+	height: auto;
+}
+
+.images {
+	width: 49%;
+}
 .connect {
 	position: absolute;
 	left: 480px;
@@ -70,7 +77,6 @@ h1, h2 {
 }
 
 footer {
-	overflow: auto;
 	font-size: .7em;
 	float: left;
 	width: 100%;
